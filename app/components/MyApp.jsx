@@ -2,11 +2,11 @@ var React = require('react');
 
 var MyApp = React.createClass({
 
-  getInitialState: () => {
+  getInitialState: function() {
     return {}
   },
 
-  render: () => {
+  render: function() {
     return (
       <div>
         MyApp
